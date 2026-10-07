@@ -7,9 +7,7 @@
       "outbounds": [
         "auto",
         "🇮🇪 IE 01 - vanchip",
-        "🇮🇪 IE 02 - vanchip",
-        "🇮🇪 IE 03 - vanchip",
-        "🇮🇪 IE 04 - vanchip"
+        "🇮🇪 IE 02 - vanchip"
       ]
     },
     {
@@ -17,9 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇪 IE 01 - vanchip",
-        "🇮🇪 IE 02 - vanchip",
-        "🇮🇪 IE 03 - vanchip",
-        "🇮🇪 IE 04 - vanchip"
+        "🇮🇪 IE 02 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },

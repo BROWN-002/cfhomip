@@ -6,186 +6,6 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - vanchip
   type: vless
-  server: 45.192.201.140
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - vanchip
-  type: vless
-  server: 104.20.36.205
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - vanchip
-  type: vless
-  server: 60.248.219.54
-  port: 443
-  uuid: 06e177f7-240d-4687-bd85-235505801a5e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: 60.248.219.54
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - vanchip
-  type: vless
-  server: 45.192.201.140
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - vanchip
-  type: vless
-  server: 172.66.152.4
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - vanchip
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 07 - vanchip
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 08 - vanchip
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 09 - vanchip
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - vanchip
-  type: vless
-  server: 45.192.201.140
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 11 - vanchip
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 12 - vanchip
-  type: vless
-  server: 45.192.201.140
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 13 - vanchip
-  type: vless
-  server: 61.230.172.241
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 14 - vanchip
-  type: vless
   server: 60.248.219.78
   port: 443
   uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
@@ -198,63 +18,49 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 15 - vanchip
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - vanchip
   type: vless
-  server: 104.20.36.205
+  server: 59.125.69.24
   port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: argo6.5671234.xyz
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /e8e2cecb6188f7fb
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 16 - vanchip
+      Host: 59.125.69.24
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - vanchip
   type: vless
-  server: 172.66.152.4
+  server: 59.125.69.23
   port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: argo6.5671234.xyz
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /e8e2cecb6188f7fb
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 17 - vanchip
+      Host: 59.125.69.23
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - vanchip
   type: vless
-  server: 104.20.36.205
+  server: 60.248.219.53
   port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: argo6.5671234.xyz
+  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /e8e2cecb6188f7fb
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 18 - vanchip
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 19 - vanchip
+      Host: 60.248.219.53
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - vanchip
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -264,7 +70,27 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 20 - vanchip
+- name: 🇹🇼 中国台湾 (Taiwan) 06 - vanchip
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 07 - vanchip
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 08 - vanchip
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -287,18 +113,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - vanchip
   - 🇹🇼 中国台湾 (Taiwan) 07 - vanchip
   - 🇹🇼 中国台湾 (Taiwan) 08 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 09 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 10 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 11 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 12 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 13 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 14 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 15 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 16 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 17 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 18 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 19 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 20 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -312,17 +126,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 06 - vanchip
   - 🇹🇼 中国台湾 (Taiwan) 07 - vanchip
   - 🇹🇼 中国台湾 (Taiwan) 08 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 09 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 10 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 11 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 12 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 13 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 14 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 15 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 16 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 17 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 18 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 19 - vanchip
-  - 🇹🇼 中国台湾 (Taiwan) 20 - vanchip
 rules:
 - MATCH,PROXIES
