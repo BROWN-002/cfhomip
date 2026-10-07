@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇫🇷 法国 (France) 01 - vanchip",
+        "🇫🇷 法国 (France) 02 - vanchip",
+        "🇫🇷 法国 (France) 03 - vanchip",
+        "🇫🇷 法国 (France) 04 - vanchip",
+        "🇫🇷 法国 (France) 05 - vanchip",
+        "🇫🇷 法国 (France) 06 - vanchip",
+        "🇫🇷 法国 (France) 07 - vanchip",
+        "🇫🇷 法国 (France) 08 - vanchip",
+        "🇫🇷 法国 (France) 09 - vanchip",
+        "🇫🇷 法国 (France) 10 - vanchip",
+        "🇫🇷 法国 (France) 11 - vanchip",
+        "🇫🇷 法国 (France) 12 - vanchip",
+        "🇫🇷 法国 (France) 13 - vanchip",
+        "🇫🇷 法国 (France) 14 - vanchip",
+        "🇫🇷 法国 (France) 15 - vanchip",
+        "🇫🇷 法国 (France) 16 - vanchip",
+        "🇫🇷 法国 (France) 17 - vanchip",
+        "🇫🇷 法国 (France) 18 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇫🇷 法国 (France) 01 - vanchip",
+        "🇫🇷 法国 (France) 02 - vanchip",
+        "🇫🇷 法国 (France) 03 - vanchip",
+        "🇫🇷 法国 (France) 04 - vanchip",
+        "🇫🇷 法国 (France) 05 - vanchip",
+        "🇫🇷 法国 (France) 06 - vanchip",
+        "🇫🇷 法国 (France) 07 - vanchip",
+        "🇫🇷 法国 (France) 08 - vanchip",
+        "🇫🇷 法国 (France) 09 - vanchip",
+        "🇫🇷 法国 (France) 10 - vanchip",
+        "🇫🇷 法国 (France) 11 - vanchip",
+        "🇫🇷 法国 (France) 12 - vanchip",
+        "🇫🇷 法国 (France) 13 - vanchip",
+        "🇫🇷 法国 (France) 14 - vanchip",
+        "🇫🇷 法国 (France) 15 - vanchip",
+        "🇫🇷 法国 (France) 16 - vanchip",
+        "🇫🇷 法国 (France) 17 - vanchip",
+        "🇫🇷 法国 (France) 18 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🌐 其他地区 (Other) 01 - vanchip",
+        "🌐 其他地区 (Other) 02 - vanchip",
+        "🌐 其他地区 (Other) 03 - vanchip",
+        "🌐 其他地区 (Other) 04 - vanchip",
+        "🌐 其他地区 (Other) 05 - vanchip",
+        "🌐 其他地区 (Other) 06 - vanchip",
+        "🌐 其他地区 (Other) 07 - vanchip",
+        "🌐 其他地区 (Other) 08 - vanchip",
+        "🌐 其他地区 (Other) 09 - vanchip",
+        "🌐 其他地区 (Other) 10 - vanchip",
+        "🌐 其他地区 (Other) 11 - vanchip",
+        "🌐 其他地区 (Other) 12 - vanchip",
+        "🌐 其他地区 (Other) 13 - vanchip",
+        "🌐 其他地区 (Other) 14 - vanchip",
+        "🌐 其他地区 (Other) 15 - vanchip",
+        "🌐 其他地区 (Other) 16 - vanchip",
+        "🌐 其他地区 (Other) 17 - vanchip",
+        "🌐 其他地区 (Other) 18 - vanchip",
+        "🌐 其他地区 (Other) 19 - vanchip",
+        "🌐 其他地区 (Other) 20 - vanchip",
+        "🌐 其他地区 (Other) 21 - vanchip",
+        "🌐 其他地区 (Other) 22 - vanchip",
+        "🌐 其他地区 (Other) 23 - vanchip",
+        "🌐 其他地区 (Other) 24 - vanchip",
+        "🌐 其他地区 (Other) 25 - vanchip",
+        "🌐 其他地区 (Other) 26 - vanchip",
+        "🌐 其他地区 (Other) 27 - vanchip",
+        "🌐 其他地区 (Other) 28 - vanchip",
+        "🌐 其他地区 (Other) 29 - vanchip",
+        "🌐 其他地区 (Other) 30 - vanchip",
+        "🌐 其他地区 (Other) 31 - vanchip",
+        "🌐 其他地区 (Other) 32 - vanchip",
+        "🌐 其他地区 (Other) 33 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🌐 其他地区 (Other) 01 - vanchip",
+        "🌐 其他地区 (Other) 02 - vanchip",
+        "🌐 其他地区 (Other) 03 - vanchip",
+        "🌐 其他地区 (Other) 04 - vanchip",
+        "🌐 其他地区 (Other) 05 - vanchip",
+        "🌐 其他地区 (Other) 06 - vanchip",
+        "🌐 其他地区 (Other) 07 - vanchip",
+        "🌐 其他地区 (Other) 08 - vanchip",
+        "🌐 其他地区 (Other) 09 - vanchip",
+        "🌐 其他地区 (Other) 10 - vanchip",
+        "🌐 其他地区 (Other) 11 - vanchip",
+        "🌐 其他地区 (Other) 12 - vanchip",
+        "🌐 其他地区 (Other) 13 - vanchip",
+        "🌐 其他地区 (Other) 14 - vanchip",
+        "🌐 其他地区 (Other) 15 - vanchip",
+        "🌐 其他地区 (Other) 16 - vanchip",
+        "🌐 其他地区 (Other) 17 - vanchip",
+        "🌐 其他地区 (Other) 18 - vanchip",
+        "🌐 其他地区 (Other) 19 - vanchip",
+        "🌐 其他地区 (Other) 20 - vanchip",
+        "🌐 其他地区 (Other) 21 - vanchip",
+        "🌐 其他地区 (Other) 22 - vanchip",
+        "🌐 其他地区 (Other) 23 - vanchip",
+        "🌐 其他地区 (Other) 24 - vanchip",
+        "🌐 其他地区 (Other) 25 - vanchip",
+        "🌐 其他地区 (Other) 26 - vanchip",
+        "🌐 其他地区 (Other) 27 - vanchip",
+        "🌐 其他地区 (Other) 28 - vanchip",
+        "🌐 其他地区 (Other) 29 - vanchip",
+        "🌐 其他地区 (Other) 30 - vanchip",
+        "🌐 其他地区 (Other) 31 - vanchip",
+        "🌐 其他地区 (Other) 32 - vanchip",
+        "🌐 其他地区 (Other) 33 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

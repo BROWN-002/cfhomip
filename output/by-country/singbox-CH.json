@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - vanchip",
+        "🇨🇭 CH 02 - vanchip",
+        "🇨🇭 CH 03 - vanchip",
+        "🇨🇭 CH 04 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - vanchip",
+        "🇨🇭 CH 02 - vanchip",
+        "🇨🇭 CH 03 - vanchip",
+        "🇨🇭 CH 04 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇪🇪 EE 01 - vanchip",
+        "🇪🇪 EE 02 - vanchip",
+        "🇪🇪 EE 03 - vanchip",
+        "🇪🇪 EE 04 - vanchip",
+        "🇪🇪 EE 05 - vanchip",
+        "🇪🇪 EE 06 - vanchip",
+        "🇪🇪 EE 07 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇪🇪 EE 01 - vanchip",
+        "🇪🇪 EE 02 - vanchip",
+        "🇪🇪 EE 03 - vanchip",
+        "🇪🇪 EE 04 - vanchip",
+        "🇪🇪 EE 05 - vanchip",
+        "🇪🇪 EE 06 - vanchip",
+        "🇪🇪 EE 07 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇯🇵 日本 (Japan) 01 - vanchip",
+        "🇯🇵 日本 (Japan) 02 - vanchip",
+        "🇯🇵 日本 (Japan) 03 - vanchip",
+        "🇯🇵 日本 (Japan) 04 - vanchip",
+        "🇯🇵 日本 (Japan) 05 - vanchip",
+        "🇯🇵 日本 (Japan) 06 - vanchip",
+        "🇯🇵 日本 (Japan) 07 - vanchip",
+        "🇯🇵 日本 (Japan) 08 - vanchip",
+        "🇯🇵 日本 (Japan) 09 - vanchip",
+        "🇯🇵 日本 (Japan) 10 - vanchip",
+        "🇯🇵 日本 (Japan) 11 - vanchip",
+        "🇯🇵 日本 (Japan) 12 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇯🇵 日本 (Japan) 01 - vanchip",
+        "🇯🇵 日本 (Japan) 02 - vanchip",
+        "🇯🇵 日本 (Japan) 03 - vanchip",
+        "🇯🇵 日本 (Japan) 04 - vanchip",
+        "🇯🇵 日本 (Japan) 05 - vanchip",
+        "🇯🇵 日本 (Japan) 06 - vanchip",
+        "🇯🇵 日本 (Japan) 07 - vanchip",
+        "🇯🇵 日本 (Japan) 08 - vanchip",
+        "🇯🇵 日本 (Japan) 09 - vanchip",
+        "🇯🇵 日本 (Japan) 10 - vanchip",
+        "🇯🇵 日本 (Japan) 11 - vanchip",
+        "🇯🇵 日本 (Japan) 12 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
