@@ -1,0 +1,290 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇲🇩 MD 01 - vanchip
+  type: vless
+  server: 185.147.27.128
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 02 - vanchip
+  type: vless
+  server: 185.147.27.217
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 03 - vanchip
+  type: vless
+  server: 185.147.27.100
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 04 - vanchip
+  type: vless
+  server: 185.147.27.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 05 - vanchip
+  type: vless
+  server: 185.147.27.68
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 06 - vanchip
+  type: vless
+  server: 185.147.27.131
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 07 - vanchip
+  type: vless
+  server: 87.228.71.197
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 08 - vanchip
+  type: vless
+  server: 185.147.27.105
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 09 - vanchip
+  type: vless
+  server: 87.228.71.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 10 - vanchip
+  type: vless
+  server: 87.228.71.195
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 11 - vanchip
+  type: vless
+  server: 45.139.24.28
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 12 - vanchip
+  type: vless
+  server: 185.147.27.215
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 13 - vanchip
+  type: vless
+  server: 185.147.27.116
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 14 - vanchip
+  type: vless
+  server: 185.147.27.115
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 15 - vanchip
+  type: vless
+  server: 185.147.27.130
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 16 - vanchip
+  type: vless
+  server: 185.147.27.216
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 17 - vanchip
+  type: vless
+  server: 87.228.71.198
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇲🇩 MD 01 - vanchip
+  - 🇲🇩 MD 02 - vanchip
+  - 🇲🇩 MD 03 - vanchip
+  - 🇲🇩 MD 04 - vanchip
+  - 🇲🇩 MD 05 - vanchip
+  - 🇲🇩 MD 06 - vanchip
+  - 🇲🇩 MD 07 - vanchip
+  - 🇲🇩 MD 08 - vanchip
+  - 🇲🇩 MD 09 - vanchip
+  - 🇲🇩 MD 10 - vanchip
+  - 🇲🇩 MD 11 - vanchip
+  - 🇲🇩 MD 12 - vanchip
+  - 🇲🇩 MD 13 - vanchip
+  - 🇲🇩 MD 14 - vanchip
+  - 🇲🇩 MD 15 - vanchip
+  - 🇲🇩 MD 16 - vanchip
+  - 🇲🇩 MD 17 - vanchip
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇲🇩 MD 01 - vanchip
+  - 🇲🇩 MD 02 - vanchip
+  - 🇲🇩 MD 03 - vanchip
+  - 🇲🇩 MD 04 - vanchip
+  - 🇲🇩 MD 05 - vanchip
+  - 🇲🇩 MD 06 - vanchip
+  - 🇲🇩 MD 07 - vanchip
+  - 🇲🇩 MD 08 - vanchip
+  - 🇲🇩 MD 09 - vanchip
+  - 🇲🇩 MD 10 - vanchip
+  - 🇲🇩 MD 11 - vanchip
+  - 🇲🇩 MD 12 - vanchip
+  - 🇲🇩 MD 13 - vanchip
+  - 🇲🇩 MD 14 - vanchip
+  - 🇲🇩 MD 15 - vanchip
+  - 🇲🇩 MD 16 - vanchip
+  - 🇲🇩 MD 17 - vanchip
+rules:
+- MATCH,PROXIES

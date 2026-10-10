@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - vanchip",
+        "🇲🇩 MD 02 - vanchip",
+        "🇲🇩 MD 03 - vanchip",
+        "🇲🇩 MD 04 - vanchip",
+        "🇲🇩 MD 05 - vanchip",
+        "🇲🇩 MD 06 - vanchip",
+        "🇲🇩 MD 07 - vanchip",
+        "🇲🇩 MD 08 - vanchip",
+        "🇲🇩 MD 09 - vanchip",
+        "🇲🇩 MD 10 - vanchip",
+        "🇲🇩 MD 11 - vanchip",
+        "🇲🇩 MD 12 - vanchip",
+        "🇲🇩 MD 13 - vanchip",
+        "🇲🇩 MD 14 - vanchip",
+        "🇲🇩 MD 15 - vanchip",
+        "🇲🇩 MD 16 - vanchip",
+        "🇲🇩 MD 17 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - vanchip",
+        "🇲🇩 MD 02 - vanchip",
+        "🇲🇩 MD 03 - vanchip",
+        "🇲🇩 MD 04 - vanchip",
+        "🇲🇩 MD 05 - vanchip",
+        "🇲🇩 MD 06 - vanchip",
+        "🇲🇩 MD 07 - vanchip",
+        "🇲🇩 MD 08 - vanchip",
+        "🇲🇩 MD 09 - vanchip",
+        "🇲🇩 MD 10 - vanchip",
+        "🇲🇩 MD 11 - vanchip",
+        "🇲🇩 MD 12 - vanchip",
+        "🇲🇩 MD 13 - vanchip",
+        "🇲🇩 MD 14 - vanchip",
+        "🇲🇩 MD 15 - vanchip",
+        "🇲🇩 MD 16 - vanchip",
+        "🇲🇩 MD 17 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
