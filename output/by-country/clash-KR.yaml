@@ -5,16 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - vanchip
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 02 - vanchip
   type: vless
   server: 34.22.111.30
   port: 443
@@ -25,32 +15,36 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇰🇷 韩国 (South Korea) 03 - vanchip
-  type: vless
-  server: 172.66.170.53
-  port: 8880
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  client-fingerprint: qq
+- name: 🇰🇷 韩国 (South Korea) 02 - vanchip
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: summer-hat-ba5c.430.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 04 - vanchip
+- name: 🇰🇷 韩国 (South Korea) 03 - vanchip
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 34.22.111.30
+  port: 443
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 04 - vanchip
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 22047
+  cipher: aes-256-gcm
+  password: c2fe9024-d253-401a-b868-97421f6eb9e0
+  udp: true
 - name: 🇰🇷 韩国 (South Korea) 05 - vanchip
   type: vless
   server: 34.22.111.30
@@ -62,34 +56,8 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
 - name: 🇰🇷 韩国 (South Korea) 06 - vanchip
-  type: vmess
-  server: jp4.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nat12.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /vvvvvvvvv
-    headers:
-      Host: nat12.9966338.xyz
-- name: 🇰🇷 韩国 (South Korea) 07 - vanchip
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 08 - vanchip
   type: vless
   server: 34.22.111.30
   port: 443
@@ -100,21 +68,38 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 09 - vanchip
+  client-fingerprint: edge
+- name: 🇰🇷 韩国 (South Korea) 07 - vanchip
   type: vless
-  server: 119.205.235.58
-  port: 443
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.schzyc.cc.cd
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
-    headers:
-      Host: cf3.schzyc.cc.cd
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 08 - vanchip
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 09 - vanchip
+  type: vless
+  server: 34.22.111.30
+  port: 443
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
+  servername: www.cloudflare.com
+  client-fingerprint: qq
 - name: 🇰🇷 韩国 (South Korea) 10 - vanchip
   type: vless
   server: 34.22.111.30
@@ -126,7 +111,7 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇰🇷 韩国 (South Korea) 11 - vanchip
   type: vless
   server: 34.22.111.30
@@ -138,7 +123,7 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 12 - vanchip
   type: vless
   server: 34.22.111.30
@@ -150,8 +135,20 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 13 - vanchip
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 14 - vanchip
   type: vless
   server: 34.22.111.30
   port: 443
@@ -162,8 +159,8 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇰🇷 韩国 (South Korea) 14 - vanchip
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 15 - vanchip
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -175,7 +172,7 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 15 - vanchip
+- name: 🇰🇷 韩国 (South Korea) 16 - vanchip
   type: vless
   server: 34.22.111.30
   port: 443
@@ -186,17 +183,7 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇰🇷 韩国 (South Korea) 16 - vanchip
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: edge
 - name: 🇰🇷 韩国 (South Korea) 17 - vanchip
   type: vless
   server: 34.22.111.30
@@ -208,41 +195,16 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇰🇷 韩国 (South Korea) 18 - vanchip
-  type: vless
-  server: 34.22.111.30
-  port: 443
-  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
-  servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 18 - vanchip
+  type: ss
+  server: ce1fc2d8.krkt.hkssip.com
+  port: 49642
+  cipher: aes-256-gcm
+  password: ac9c0a7b
+  udp: true
 - name: 🇰🇷 韩国 (South Korea) 19 - vanchip
   type: vless
-  server: 172.64.88.251
-  port: 8880
-  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: patient-cake-39c7.44-e7a.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 20 - vanchip
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 21 - vanchip
-  type: vless
   server: 34.22.111.30
   port: 443
   uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
@@ -252,7 +214,7 @@ proxies:
   reality-opts:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
@@ -277,8 +239,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 17 - vanchip
   - 🇰🇷 韩国 (South Korea) 18 - vanchip
   - 🇰🇷 韩国 (South Korea) 19 - vanchip
-  - 🇰🇷 韩国 (South Korea) 20 - vanchip
-  - 🇰🇷 韩国 (South Korea) 21 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -303,7 +263,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 17 - vanchip
   - 🇰🇷 韩国 (South Korea) 18 - vanchip
   - 🇰🇷 韩国 (South Korea) 19 - vanchip
-  - 🇰🇷 韩国 (South Korea) 20 - vanchip
-  - 🇰🇷 韩国 (South Korea) 21 - vanchip
 rules:
 - MATCH,PROXIES
