@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇾 CY 01 - vanchip",
+        "🇨🇾 CY 02 - vanchip",
+        "🇨🇾 CY 03 - vanchip",
+        "🇨🇾 CY 04 - vanchip",
+        "🇨🇾 CY 05 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇾 CY 01 - vanchip",
+        "🇨🇾 CY 02 - vanchip",
+        "🇨🇾 CY 03 - vanchip",
+        "🇨🇾 CY 04 - vanchip",
+        "🇨🇾 CY 05 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

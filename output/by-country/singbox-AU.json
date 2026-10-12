@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - vanchip",
-        "🇧🇷 BR 02 - vanchip"
+        "🇦🇺 澳大利亚 (Australia) 01 - vanchip",
+        "🇦🇺 澳大利亚 (Australia) 02 - vanchip",
+        "🇦🇺 澳大利亚 (Australia) 03 - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - vanchip",
-        "🇧🇷 BR 02 - vanchip"
+        "🇦🇺 澳大利亚 (Australia) 01 - vanchip",
+        "🇦🇺 澳大利亚 (Australia) 02 - vanchip",
+        "🇦🇺 澳大利亚 (Australia) 03 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
