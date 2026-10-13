@@ -18,18 +18,32 @@ proxies:
   client-fingerprint: chrome
 - name: 🇸🇪 SE 02 - vanchip
   type: vless
-  server: 94.143.231.146
+  server: 109.120.134.243
   port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sub.merky.top
+  servername: free.cndyw.ggff.net
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: pyip=bpb.yousef.isegaro.comfp=random
     headers:
-      Host: sub.merky.top
+      Host: free.cndyw.ggff.net
+- name: 🇸🇪 SE 03 - vanchip
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,6 +51,7 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - vanchip
   - 🇸🇪 SE 02 - vanchip
+  - 🇸🇪 SE 03 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -44,5 +59,6 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - vanchip
   - 🇸🇪 SE 02 - vanchip
+  - 🇸🇪 SE 03 - vanchip
 rules:
 - MATCH,PROXIES
