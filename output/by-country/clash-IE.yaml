@@ -6,6 +6,104 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - vanchip
   type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 02 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 03 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 04 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 05 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 06 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 07 - vanchip
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 08 - vanchip
+  type: vless
   server: 23.95.225.10
   port: 8443
   uuid: d342d11e-d224-4463-b982-532309285094
@@ -18,17 +116,223 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
+- name: 🇮🇪 IE 09 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 10 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?@EVAY_VPN
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 11 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 12 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 13 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 14 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 15 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 16 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 17 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 18 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 19 - vanchip
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇮🇪 IE 20 - vanchip
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '%25'
+    headers:
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - vanchip
+  - 🇮🇪 IE 02 - vanchip
+  - 🇮🇪 IE 03 - vanchip
+  - 🇮🇪 IE 04 - vanchip
+  - 🇮🇪 IE 05 - vanchip
+  - 🇮🇪 IE 06 - vanchip
+  - 🇮🇪 IE 07 - vanchip
+  - 🇮🇪 IE 08 - vanchip
+  - 🇮🇪 IE 09 - vanchip
+  - 🇮🇪 IE 10 - vanchip
+  - 🇮🇪 IE 11 - vanchip
+  - 🇮🇪 IE 12 - vanchip
+  - 🇮🇪 IE 13 - vanchip
+  - 🇮🇪 IE 14 - vanchip
+  - 🇮🇪 IE 15 - vanchip
+  - 🇮🇪 IE 16 - vanchip
+  - 🇮🇪 IE 17 - vanchip
+  - 🇮🇪 IE 18 - vanchip
+  - 🇮🇪 IE 19 - vanchip
+  - 🇮🇪 IE 20 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - vanchip
+  - 🇮🇪 IE 02 - vanchip
+  - 🇮🇪 IE 03 - vanchip
+  - 🇮🇪 IE 04 - vanchip
+  - 🇮🇪 IE 05 - vanchip
+  - 🇮🇪 IE 06 - vanchip
+  - 🇮🇪 IE 07 - vanchip
+  - 🇮🇪 IE 08 - vanchip
+  - 🇮🇪 IE 09 - vanchip
+  - 🇮🇪 IE 10 - vanchip
+  - 🇮🇪 IE 11 - vanchip
+  - 🇮🇪 IE 12 - vanchip
+  - 🇮🇪 IE 13 - vanchip
+  - 🇮🇪 IE 14 - vanchip
+  - 🇮🇪 IE 15 - vanchip
+  - 🇮🇪 IE 16 - vanchip
+  - 🇮🇪 IE 17 - vanchip
+  - 🇮🇪 IE 18 - vanchip
+  - 🇮🇪 IE 19 - vanchip
+  - 🇮🇪 IE 20 - vanchip
 rules:
 - MATCH,PROXIES
