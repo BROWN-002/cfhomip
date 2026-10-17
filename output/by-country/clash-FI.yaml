@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 02 - vanchip
   type: vless
   server: 95.216.27.15
@@ -30,6 +30,20 @@ proxies:
   client-fingerprint: chrome
 - name: 🇫🇮 FI 03 - vanchip
   type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server8.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /fdtiouasopeiyre0r95y8?ed=2560
+    headers:
+      Host: server8.9966338.xyz
+- name: 🇫🇮 FI 04 - vanchip
+  type: vless
   server: 95.216.27.15
   port: 2053
   uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
@@ -39,18 +53,6 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 04 - vanchip
-  type: vless
-  server: mci.amir12.ir
-  port: 2112
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
-  servername: play.google.com
   client-fingerprint: chrome
 - name: 🇫🇮 FI 05 - vanchip
   type: vless
@@ -63,20 +65,8 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 06 - vanchip
-  type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
   client-fingerprint: random
-- name: 🇫🇮 FI 07 - vanchip
+- name: 🇫🇮 FI 06 - vanchip
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -89,6 +79,30 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
+- name: 🇫🇮 FI 07 - vanchip
+  type: vless
+  server: mci.amir12.ir
+  port: 2112
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 08 - vanchip
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,6 +115,7 @@ proxy-groups:
   - 🇫🇮 FI 05 - vanchip
   - 🇫🇮 FI 06 - vanchip
   - 🇫🇮 FI 07 - vanchip
+  - 🇫🇮 FI 08 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,5 +128,6 @@ proxy-groups:
   - 🇫🇮 FI 05 - vanchip
   - 🇫🇮 FI 06 - vanchip
   - 🇫🇮 FI 07 - vanchip
+  - 🇫🇮 FI 08 - vanchip
 rules:
 - MATCH,PROXIES
