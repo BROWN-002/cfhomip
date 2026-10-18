@@ -39,37 +39,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 05 - vanchip
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 06 - vanchip
-  type: ss
-  server: 200.181.82.91
-  port: 21818
-  cipher: aes-256-gcm
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-  udp: true
-- name: 🇵🇱 PL 07 - vanchip
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 08 - vanchip
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -79,10 +48,6 @@ proxy-groups:
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
   - 🇵🇱 PL 04 - vanchip
-  - 🇵🇱 PL 05 - vanchip
-  - 🇵🇱 PL 06 - vanchip
-  - 🇵🇱 PL 07 - vanchip
-  - 🇵🇱 PL 08 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,9 +57,5 @@ proxy-groups:
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
   - 🇵🇱 PL 04 - vanchip
-  - 🇵🇱 PL 05 - vanchip
-  - 🇵🇱 PL 06 - vanchip
-  - 🇵🇱 PL 07 - vanchip
-  - 🇵🇱 PL 08 - vanchip
 rules:
 - MATCH,PROXIES
