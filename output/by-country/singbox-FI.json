@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - vanchip",
-        "🇫🇮 FI 02 - vanchip",
-        "🇫🇮 FI 03 - vanchip",
-        "🇫🇮 FI 04 - vanchip",
-        "🇫🇮 FI 05 - vanchip",
-        "🇫🇮 FI 06 - vanchip"
+        "🇫🇮 FI 01 - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - vanchip",
-        "🇫🇮 FI 02 - vanchip",
-        "🇫🇮 FI 03 - vanchip",
-        "🇫🇮 FI 04 - vanchip",
-        "🇫🇮 FI 05 - vanchip",
-        "🇫🇮 FI 06 - vanchip"
+        "🇫🇮 FI 01 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
