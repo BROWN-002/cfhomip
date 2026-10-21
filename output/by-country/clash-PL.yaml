@@ -6,14 +6,6 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - vanchip
   type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 02 - vanchip
-  type: vless
   server: pl1.h1cloud.net
   port: 27591
   uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
@@ -24,7 +16,7 @@ proxies:
     public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇵🇱 PL 03 - vanchip
+- name: 🇵🇱 PL 02 - vanchip
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -33,7 +25,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 04 - vanchip
+- name: 🇵🇱 PL 03 - vanchip
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -49,7 +41,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - vanchip
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
-  - 🇵🇱 PL 04 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,6 +49,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - vanchip
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
-  - 🇵🇱 PL 04 - vanchip
 rules:
 - MATCH,PROXIES
