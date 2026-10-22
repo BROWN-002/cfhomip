@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - vanchip"
+        "🇮🇷 IR 01 - vanchip",
+        "🇮🇷 IR 02 - vanchip",
+        "🇮🇷 IR 03 - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - vanchip"
+        "🇮🇷 IR 01 - vanchip",
+        "🇮🇷 IR 02 - vanchip",
+        "🇮🇷 IR 03 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
