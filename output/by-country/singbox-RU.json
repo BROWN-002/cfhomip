@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇷 IR 01 - vanchip",
-        "🇮🇷 IR 02 - vanchip",
-        "🇮🇷 IR 03 - vanchip"
+        "🇷🇺 俄罗斯 (Russia) 01 - vanchip",
+        "🇷🇺 俄罗斯 (Russia) 02 - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - vanchip",
-        "🇮🇷 IR 02 - vanchip",
-        "🇮🇷 IR 03 - vanchip"
+        "🇷🇺 俄罗斯 (Russia) 01 - vanchip",
+        "🇷🇺 俄罗斯 (Russia) 02 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
