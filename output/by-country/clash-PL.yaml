@@ -12,7 +12,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
+  servername: 2.26.225.89
 - name: 🇵🇱 PL 02 - vanchip
   type: vless
   server: 2.26.225.89
@@ -21,28 +21,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.225.89
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - vanchip
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 04 - vanchip
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 05 - vanchip
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
@@ -54,8 +38,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - vanchip
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
-  - 🇵🇱 PL 04 - vanchip
-  - 🇵🇱 PL 05 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -64,7 +46,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - vanchip
   - 🇵🇱 PL 02 - vanchip
   - 🇵🇱 PL 03 - vanchip
-  - 🇵🇱 PL 04 - vanchip
-  - 🇵🇱 PL 05 - vanchip
 rules:
 - MATCH,PROXIES
