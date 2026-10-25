@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇸🇪 SE 01 - vanchip",
-        "🇸🇪 SE 02 - vanchip"
+        "🇸🇪 SE 02 - vanchip",
+        "🇸🇪 SE 03 - vanchip",
+        "🇸🇪 SE 04 - vanchip"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇪 SE 01 - vanchip",
-        "🇸🇪 SE 02 - vanchip"
+        "🇸🇪 SE 02 - vanchip",
+        "🇸🇪 SE 03 - vanchip",
+        "🇸🇪 SE 04 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
