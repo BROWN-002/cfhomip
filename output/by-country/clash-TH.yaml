@@ -19,18 +19,33 @@ proxies:
       Host: support.zoom.us.v2ray.simspeedup.com
 - name: 🇹🇭 TH 02 - vanchip
   type: vless
-  server: 103.86.49.57
-  port: 80
+  server: 104.18.26.90
+  port: 443
   uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: v2ray.simspeedup.com
   network: ws
   ws-opts:
     path: /ws
     headers:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 TH 03 - vanchip
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🇹🇭 TH 04 - vanchip
   type: ss
   server: pphfree2.mvpnpvpn.de5.net
   port: 52351
@@ -45,6 +60,7 @@ proxy-groups:
   - 🇹🇭 TH 01 - vanchip
   - 🇹🇭 TH 02 - vanchip
   - 🇹🇭 TH 03 - vanchip
+  - 🇹🇭 TH 04 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,5 +69,6 @@ proxy-groups:
   - 🇹🇭 TH 01 - vanchip
   - 🇹🇭 TH 02 - vanchip
   - 🇹🇭 TH 03 - vanchip
+  - 🇹🇭 TH 04 - vanchip
 rules:
 - MATCH,PROXIES
