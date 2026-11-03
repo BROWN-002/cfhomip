@@ -39,37 +39,9 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - vanchip
   type: vless
-  server: 185.18.250.252
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
-- name: 🇨🇭 CH 05 - vanchip
-  type: vless
-  server: 83.147.216.223
-  port: 4433
-  uuid: 660174a2-d32d-4521-840d-d1853bfc80b8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-- name: 🇨🇭 CH 06 - vanchip
-  type: vless
   server: 208.69.78.217
   port: 2053
   uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
@@ -79,8 +51,8 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 07 - vanchip
+  client-fingerprint: random
+- name: 🇨🇭 CH 05 - vanchip
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -92,21 +64,7 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇨🇭 CH 08 - vanchip
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
-- name: 🇨🇭 CH 09 - vanchip
+- name: 🇨🇭 CH 06 - vanchip
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -129,9 +87,6 @@ proxy-groups:
   - 🇨🇭 CH 04 - vanchip
   - 🇨🇭 CH 05 - vanchip
   - 🇨🇭 CH 06 - vanchip
-  - 🇨🇭 CH 07 - vanchip
-  - 🇨🇭 CH 08 - vanchip
-  - 🇨🇭 CH 09 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -143,8 +98,5 @@ proxy-groups:
   - 🇨🇭 CH 04 - vanchip
   - 🇨🇭 CH 05 - vanchip
   - 🇨🇭 CH 06 - vanchip
-  - 🇨🇭 CH 07 - vanchip
-  - 🇨🇭 CH 08 - vanchip
-  - 🇨🇭 CH 09 - vanchip
 rules:
 - MATCH,PROXIES
