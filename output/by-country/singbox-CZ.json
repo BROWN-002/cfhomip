@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇿 CZ 01 - vanchip",
+        "🇨🇿 CZ 02 - vanchip",
+        "🇨🇿 CZ 03 - vanchip",
+        "🇨🇿 CZ 04 - vanchip",
+        "🇨🇿 CZ 05 - vanchip",
+        "🇨🇿 CZ 06 - vanchip"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - vanchip",
+        "🇨🇿 CZ 02 - vanchip",
+        "🇨🇿 CZ 03 - vanchip",
+        "🇨🇿 CZ 04 - vanchip",
+        "🇨🇿 CZ 05 - vanchip",
+        "🇨🇿 CZ 06 - vanchip"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
