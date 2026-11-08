@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - vanchip
   type: ss
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 02 - vanchip
+  type: ss
+  server: 82.152.132.211
+  port: 8044
+  cipher: chacha20-ietf-poly1305
+  password: dCamglzrORaopqbpBlptzbt9QdiH4CSN
+  udp: true
+- name: 🇷🇴 RO 03 - vanchip
+  type: ss
   server: 194.68.44.42
   port: 64546
   cipher: chacha20-ietf-poly1305
@@ -17,11 +31,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇴 RO 01 - vanchip
+  - 🇷🇴 RO 02 - vanchip
+  - 🇷🇴 RO 03 - vanchip
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 RO 01 - vanchip
+  - 🇷🇴 RO 02 - vanchip
+  - 🇷🇴 RO 03 - vanchip
 rules:
 - MATCH,PROXIES
