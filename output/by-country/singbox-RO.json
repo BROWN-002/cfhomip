@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - vanchip",
-        "🇷🇴 RO 02 - vanchip",
-        "🇷🇴 RO 03 - vanchip"
+        "🇷🇴 RO 01 - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - vanchip",
-        "🇷🇴 RO 02 - vanchip",
-        "🇷🇴 RO 03 - vanchip"
+        "🇷🇴 RO 01 - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
