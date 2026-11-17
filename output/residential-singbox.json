@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - vanchip"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - vanchip",
+        "🇩🇪 德国 (Germany) 02 (家宽) - vanchip"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - vanchip"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - vanchip",
+        "🇩🇪 德国 (Germany) 02 (家宽) - vanchip"
       ],
       "url": "https://www.google.com/generate_204"
     },
